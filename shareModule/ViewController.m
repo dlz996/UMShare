@@ -27,7 +27,7 @@
     [super viewDidLoad];    
     self.title = @"选择分享对象";
     _buttonArray = [NSMutableArray array];
-    
+    NSLog(@"打印文本------>>>>>");
     for (int i=0; i<5; i++) {
         UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
         [btn setTitle:[NSString stringWithFormat:@"%@",@[@"QQ",@"QQ空间",@"微信",@"朋友圈",@"微博"][i]] forState:UIControlStateNormal];
